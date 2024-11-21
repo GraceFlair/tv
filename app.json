@@ -1,0 +1,233 @@
+{
+  "spider": "https://mirror.ghproxy.com/https://github.com/haoyunfei0512/live2live/blob/main/fan.txt;md5;ce37642e140a829d57496a32d8fcc648",
+  "sites": [
+    {
+      "key": "豆豆",
+      "name": "🌕豆瓣推荐",
+      "type": 3,
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {"key":"玩偶","name":"👽玩偶哥哥","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0, "ext": {"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
+    {"key":"南瓜","name":"🎃南瓜多线","type":3,"api":"csp_NanGua","playerType":2,"searchable":1,"quickSearch":1,"changeable":1}
+  ],
+  "doh": [
+    {
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ],
+      "name": "Google",
+      "url": "https://dns.google/dns-query"
+    },
+    {
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ],
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query"
+    },
+    {
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ],
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query"
+    },
+    {
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ],
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer"
+    }
+  ],
+  "parses": [
+    {
+      "name": "聚合",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "神秘的哥哥们",
+      "type": 1,
+      "url": "http://api.888484.xyz/神秘哥哥/super.php?v=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "tucheng",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "yzm",
+          "aliyun",
+          "RJuMao",
+          "bilibili",
+          "1905",
+          "xinvip",
+          "XAL",
+          "qiqi",
+          "XALS",
+          "YuMi-vip"
+        ]
+      }
+    },
+    {
+      "name": "免费分享",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "mgtv",
+          "芒果",
+          "imgo",
+          "letv",
+          "乐视",
+          "pptv",
+          "PPTV",
+          "sohu",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        }
+      }
+    }
+  ],
+  "lives": [
+    {
+      "epg": "",
+      "logo": "",
+      "name": "直播",
+      "playerType": 2,
+      "type": 0,
+      "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/haoyunfei0512/live2live/main/adult.txt"
+    }
+  ],
+  "rules": [
+    {
+      "hosts": [
+        "githubusercontent",
+        ".*.*"
+      ],
+      "name": "proxy"
+    },
+    {
+      "name": "海外看",
+      "hosts": [
+        "haiwaikan"
+      ],
+      "regex": [
+        "10.0099",
+        "10.3333",
+        "16.0599",
+        "8.1748",
+        "10.85"
+      ]
+    },
+    {
+      "name": "索尼",
+      "hosts": [
+        "suonizy"
+      ],
+      "regex": [
+        "15.1666",
+        "15.2666"
+      ]
+    },
+    {
+      "name": "暴風",
+      "hosts": [
+        "bfzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "星星",
+      "hosts": [
+        "aws.ulivetv.net"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "量子",
+      "hosts": [
+        "vip.lz",
+        "hd.lz",
+        "v.cdnlz"
+      ],
+      "regex": [
+        "18.5333"
+      ]
+    },
+    {
+      "name": "非凡",
+      "hosts": [
+        "vip.ffzy",
+        "hd.ffzy"
+      ],
+      "regex": [
+        "25.0666",
+        "25.08"
+      ]
+    },
+    {
+      "name": "火山嗅探",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "抖音嗅探",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
+    {
+      "name": "農民嗅探",
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
+    }
+  ]
+}
