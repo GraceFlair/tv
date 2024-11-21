@@ -1,5 +1,5 @@
 {
-  "spider": "https://github.com/GraceFlair/tv/edit/main/fan.txt;md5;ce37642e140a829d57496a32d8fcc648",
+  "spider": "https://ghp.ci/https://raw.githubusercontent.com/GraceFlair/tv/main/fan.txt;md5;ce37642e140a829d57496a32d8fcc648",
   "sites": [
     {
       "key": "豆豆",
@@ -128,7 +128,7 @@
       "name": "直播",
       "playerType": 2,
       "type": 0,
-      "url": "https://github.com/GraceFlair/tv/edit/main/adult.txt"
+      "url": "https://ghp.ci/https://raw.githubusercontent.com/GraceFlair/tv/main/adult.txt"
     }
   ],
   "rules": [
